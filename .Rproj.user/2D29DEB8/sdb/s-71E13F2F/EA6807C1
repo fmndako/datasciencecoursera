@@ -1,0 +1,18 @@
+{
+    "contents" : "pollutantmean <- function(directory, pollutant, id=1:332){\n               data= read.csv(t)\n                for \n                        \n}\n\nt <- function(directory){\n      directory<- (x\".)\n    \n}",
+    "created" : 1440075155867.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "3651716530",
+    "id" : "EA6807C1",
+    "lastKnownWriteTime" : 28429466576486517,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

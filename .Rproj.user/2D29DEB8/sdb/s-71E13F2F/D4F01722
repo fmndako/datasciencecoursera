@@ -1,0 +1,18 @@
+{
+    "contents" : "add <- function(x,y){\n        x + y\n}\n\nabove10 <- function(x){\n          use<-x>10\n          x[use]\n}\n\nabove <- function(x,n){\n        use<- x>n\n        x[use]\n}\n\n##u can specify default values for n (x, n=10) for the above10 function\n\ncolumnmeans<-function(y){\n            nc <- ncol(y)\n            means <- numeric(nc)\n            for (i in 1:nc){\n              means[i]<-mean(y[,i], na.rm=TRUE)\n            }\n            means\n}\n\ncolumnmean<-function(y){\n  nc <- ncol(y)\n  means <- numeric(nc)\n  for (i in 1:nc){\n    means[i]<-mean(y[,i], na.rm=FALSE)\n  }\n  means\n}\n\nrowmean <- function(x){\n          nr = nrow(x)\n          means = numeric(nr)\n          for (i in 1:nr){\n            means[i] = mean(x[i,], na.rm = TRUE)\n          }\n          means\n}\n\nread.csv(\"./specdata/001.csv\") ## read a file in subdirectory in ur WD\nread.csv(\"file:///C:/Users/timatme/R/datasciencecoursera/specdata/001.csv\")\n\n\n\n",
+    "created" : 1440044623388.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1318191419",
+    "id" : "D4F01722",
+    "lastKnownWriteTime" : 1440076486,
+    "path" : "C:/Users/timatme/R/datasciencecoursera/functions.R",
+    "project_path" : "functions.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : true,
+    "type" : "r_source"
+}
