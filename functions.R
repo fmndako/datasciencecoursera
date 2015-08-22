@@ -41,10 +41,9 @@ rowmean <- function(x){
           means
 }
 
-read.csv("./specdata/001.csv") ## read a file in subdirectory in ur WD
-read.csv("file:///C:/Users/timatme/R/datasciencecoursera/specdata/001.csv")
+readspecdata <- read.csv("./specdata/001.csv") ## read a file in subdirectory in ur WD
+read001 <- read.csv("file:///C:/Users/timatme/R/datasciencecoursera/specdata/001.csv")
 
-f <- toString(id)
 
 pollutantmean <- function(directory, pollutant, id=1:332){
       f <- toString(id)  
@@ -61,4 +60,4 @@ pollutantmean <- function(directory, pollutant, id=1:332){
       pollutantmean <- mean(r, na.rm=TRUE)
 }
 
-sulphite <-matx[,2]
+
